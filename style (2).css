@@ -1,0 +1,52 @@
+/*
+ Theme Name:   Neve Child
+ Theme URI:    http://bybickley.dk/hovedopgave-creton/
+ Description:  Neve Child Theme
+ Author:       Trine Bickley
+ Author URI:   http://bybickley.dk
+ Template:     neve
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentyfifteenchild
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+h2 {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.elementor-16 .elementor-element.elementor-element-761cd13 .elementor-heading-title {
+    font-family: "Cormorant Garamond", Sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.hustle-ui:not(.hustle-size--small).module_id_2 .hustle-layout .hustle-subtitle {
+    text-align: center;
+    color: black;
+    margin-top: 5%;
+}
+
+.hustle-ui:not(.hustle-size--small).module_id_2 .hustle-layout .hustle-group-content p:not([class*="forminator-"]):last-child {
+    
+    font-size: 13px;
+}
+
+.hustle-ui:not(.hustle-size--small).module_id_2 .hustle-layout .hustle-title {
+ 
+    margin-bottom: 5%;
+}
+
+.elementor a {
+    color: black;
+}
